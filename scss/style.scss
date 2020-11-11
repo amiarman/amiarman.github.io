@@ -1,0 +1,138 @@
+$icon: 50px;
+$dark-overlay: rgba(0, 0, 0, 0.7);
+
+.navbar {
+  background: #000;
+
+  .nav-item {
+    font-size: 16px;
+    text-transform: uppercase;
+
+    .nav-link {
+      padding-right: 17px;
+    }
+  }
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-img-1 {
+  background-image: url("../img/image1.jpeg");
+  background-size: cover;
+}
+
+.carousel-img-2 {
+  background-image: url("../img/image2.jpeg");
+  background-size: cover;
+}
+
+.carousel-img-3 {
+  background-image: url("../img/image3.jpeg");
+  background-size: cover;
+}
+
+#Home-icon {
+  .fa {
+    font-size: $icon;
+  }
+}
+
+#Get-Started {
+  position: relative;
+  background-image: url("../img/pc.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 250px;
+
+  .dark-overlay {
+    background: $dark-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#Home-Video {
+  position: relative;
+  height: 250px;
+  background-image: url("../img/people.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+
+  .fa {
+    font-size: $icon;
+  }
+
+  .dark-overlay {
+    background: $dark-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#Photo-Gallery {
+  img {
+    min-height: 250px;
+  }
+}
+
+#Footer {
+  background: #000;
+}
+
+#About-us {
+  background-image: url("../img/image3.jpeg");
+  height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#About-Main {
+  img {
+    width: 360px;
+    height: 360px;
+  }
+}
+
+#box-section {
+  .fa {
+    font-size: $icon;
+  }
+}
+
+#Testimonial {
+
+  .slick-prev::before,
+  .slick-next::before {
+    color: #000;
+  }
+}
+
+#Services-section {
+  background-image: url("../img/image3.jpeg");
+  height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#Blog-section {
+  background-image: url("../img/image3.jpeg");
+  height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (max-width: 450px) {
+  #Showcase-1 {
+    h2 {
+      font-size: 40px;
+    }
+  }
+}
